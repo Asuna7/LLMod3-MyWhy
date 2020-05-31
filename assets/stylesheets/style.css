@@ -135,7 +135,7 @@ p {
 
 .flex-nav li {
     border: 1px solid white;
-    background: rgba(52, 151, 101, 0.534)
+    background: rgba(52, 151, 101, 0.5);
     color: white;
     font-size: 20px;
     text-align: center;
@@ -161,11 +161,12 @@ li:hover {
 
 @media screen and (max-width: 600px) {
     .flex-nav ul {
-        flex-wrap: wrap;
+        flex-basis: 100%;
     }
 
     .flex-nav li {
         flex: 1 1 50%;
+        font-size: 10px;
     }
 
 }
